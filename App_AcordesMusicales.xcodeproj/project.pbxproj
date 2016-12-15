@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		634630A21DF48562000B082F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634630A11DF48562000B082F /* AppDelegate.swift */; };
-		634630A41DF48562000B082F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634630A31DF48562000B082F /* ViewController.swift */; };
 		634630A71DF48562000B082F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634630A51DF48562000B082F /* Main.storyboard */; };
 		634630A91DF48562000B082F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 634630A81DF48562000B082F /* Assets.xcassets */; };
 		634630AC1DF48562000B082F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634630AA1DF48562000B082F /* LaunchScreen.storyboard */; };
+		636DF3A41E03135B00A47ACD /* ICOGuitarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636DF3A31E03135B00A47ACD /* ICOGuitarViewController.swift */; };
+		636DF3A61E03136600A47ACD /* ICOPainoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636DF3A51E03136600A47ACD /* ICOPainoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6346309E1DF48562000B082F /* App_AcordesMusicales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App_AcordesMusicales.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		634630A11DF48562000B082F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		634630A31DF48562000B082F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		634630A61DF48562000B082F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		634630A81DF48562000B082F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		634630AB1DF48562000B082F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		634630AD1DF48562000B082F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636DF3A31E03135B00A47ACD /* ICOGuitarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICOGuitarViewController.swift; sourceTree = "<group>"; };
+		636DF3A51E03136600A47ACD /* ICOPainoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICOPainoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				634630A11DF48562000B082F /* AppDelegate.swift */,
-				634630A31DF48562000B082F /* ViewController.swift */,
+				636DF3A31E03135B00A47ACD /* ICOGuitarViewController.swift */,
+				636DF3A51E03136600A47ACD /* ICOPainoViewController.swift */,
 				634630A51DF48562000B082F /* Main.storyboard */,
 				634630A81DF48562000B082F /* Assets.xcassets */,
 				634630AA1DF48562000B082F /* LaunchScreen.storyboard */,
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				634630A41DF48562000B082F /* ViewController.swift in Sources */,
+				636DF3A41E03135B00A47ACD /* ICOGuitarViewController.swift in Sources */,
+				636DF3A61E03136600A47ACD /* ICOPainoViewController.swift in Sources */,
 				634630A21DF48562000B082F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +304,7 @@
 				634630B21DF48562000B082F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
