@@ -9,7 +9,23 @@
 import UIKit
 
 class ICOGuitarViewController: UIViewController {
+    
+    
+    //MARK: - IBOutlet
+    @IBOutlet weak var myImageAcordeGuitarra: UIImageView!
+    @IBOutlet weak var myNombreAcordeLBL: UILabel!
+    
 
+    
+    //MARK: - IBActions
+    @IBAction func acordeSeleccionado(_ sender: UIButton) {
+        myNombreAcordeLBL.text = sender.titleLabel?.text
+        asignarImagenAcorde(sender.tag)
+    }
+    
+    
+    
+    //MARK: - LIFE VC
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,14 +38,40 @@ class ICOGuitarViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    //MARK: - Utils
+    func asignarImagenAcorde(_ tag : Int){
+        
+        switch tag {
+        case 0:
+            myImageAcordeGuitarra.image = UIImage(named: "img_g_do")
+        case 1:
+            myImageAcordeGuitarra.image = UIImage(named: "img_g_re")
+        case 2:
+            myImageAcordeGuitarra.image = UIImage(named: "img_g_rem")
+        case 3:
+            myImageAcordeGuitarra.image = UIImage(named: "img_g_mi")
+        case 4:
+            myImageAcordeGuitarra.image = UIImage(named: "img_g_mim")
+        case 5:
+            myImageAcordeGuitarra.image = UIImage(named: "img_g_fa")
+        case 6:
+            myImageAcordeGuitarra.image = UIImage(named: "img_g_fasm")
+        case 7:
+            myImageAcordeGuitarra.image = UIImage(named: "img_g_sol")
+        case 8:
+            myImageAcordeGuitarra.image = UIImage(named: "img_g_la")
+        case 9:
+            myImageAcordeGuitarra.image = UIImage(named: "img_g_lam")
+        case 10:
+            myImageAcordeGuitarra.image = UIImage(named: "img_g_si")
+        case 11:
+            myImageAcordeGuitarra.image = UIImage(named: "img_g_sim")
+        default:
+            myImageAcordeGuitarra.image = UIImage(named: "img_mastil")
+        }
+        
+        
+        
     }
-    */
 
 }

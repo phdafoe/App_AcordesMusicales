@@ -34,6 +34,9 @@
                                                 <state key="normal" title="DO">
                                                     <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="acordeSeleccionado:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hlp-A6-BaV"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hvh-bt-KqT">
                                                 <rect key="frame" x="125.5" y="0.0" width="124" height="60"/>
@@ -42,6 +45,9 @@
                                                 <state key="normal" title="RE">
                                                     <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="acordeSeleccionado:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WGW-1u-GoX"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fLV-0d-qOL">
                                                 <rect key="frame" x="251.5" y="0.0" width="123.5" height="60"/>
@@ -50,6 +56,9 @@
                                                 <state key="normal" title="REm">
                                                     <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="acordeSeleccionado:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fbf-ox-aKy"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -69,6 +78,9 @@
                                                 <state key="normal" title="MI">
                                                     <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="acordeSeleccionado:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oOC-lH-Maa"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ubd-e9-I9E">
                                                 <rect key="frame" x="125.5" y="0.0" width="124" height="60"/>
@@ -77,6 +89,9 @@
                                                 <state key="normal" title="MIm">
                                                     <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="acordeSeleccionado:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8p3-vb-7Kj"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="33f-3P-10M">
                                                 <rect key="frame" x="251.5" y="0.0" width="123.5" height="60"/>
@@ -85,6 +100,9 @@
                                                 <state key="normal" title="FA">
                                                     <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="acordeSeleccionado:" destination="BYZ-38-t0r" eventType="touchUpInside" id="stX-FJ-Q80"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -103,6 +121,9 @@
                                                 <state key="normal" title="FA#m">
                                                     <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="acordeSeleccionado:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e1J-1d-D3Q"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tyg-gZ-XRD">
                                                 <rect key="frame" x="125.5" y="0.0" width="124" height="60"/>
@@ -111,6 +132,9 @@
                                                 <state key="normal" title="SOL">
                                                     <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="acordeSeleccionado:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lLd-Bu-K1d"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="17F-le-AIx">
                                                 <rect key="frame" x="251.5" y="0.0" width="123.5" height="60"/>
@@ -119,6 +143,9 @@
                                                 <state key="normal" title="LA">
                                                     <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="acordeSeleccionado:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Ms-Gv-2wJ"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -136,6 +163,9 @@
                                                 <state key="normal" title="LAm">
                                                     <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="acordeSeleccionado:" destination="BYZ-38-t0r" eventType="touchUpInside" id="31Q-M5-e61"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hya-oI-gNW">
                                                 <rect key="frame" x="125.5" y="0.0" width="124" height="60"/>
@@ -144,6 +174,9 @@
                                                 <state key="normal" title="SI">
                                                     <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="acordeSeleccionado:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1E4-QE-EPY"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Apy-kB-ttA">
                                                 <rect key="frame" x="251.5" y="0.0" width="123.5" height="60"/>
@@ -152,6 +185,9 @@
                                                 <state key="normal" title="SIm">
                                                     <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="acordeSeleccionado:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fyu-ed-O3g"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -189,6 +225,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Piano" id="eaS-YO-swl"/>
+                    <connections>
+                        <outlet property="myImageAcordePiano" destination="OxR-FJ-HgV" id="Kf9-Sx-HgQ"/>
+                        <outlet property="myNombreAcordeLBL" destination="vOg-SE-lJU" id="aXP-gJ-qUm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -238,6 +278,9 @@
                                                 <state key="normal" title="DO">
                                                     <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="acordeSeleccionado:" destination="akz-lB-kvk" eventType="touchUpInside" id="1ap-4G-TwP"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l1Z-DN-p8Z">
                                                 <rect key="frame" x="125.5" y="0.0" width="124" height="60"/>
@@ -246,6 +289,9 @@
                                                 <state key="normal" title="RE">
                                                     <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="acordeSeleccionado:" destination="akz-lB-kvk" eventType="touchUpInside" id="qQT-wo-uSR"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A4M-cy-uy3">
                                                 <rect key="frame" x="251.5" y="0.0" width="123.5" height="60"/>
@@ -254,6 +300,9 @@
                                                 <state key="normal" title="REm">
                                                     <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="acordeSeleccionado:" destination="akz-lB-kvk" eventType="touchUpInside" id="OPM-7T-7zI"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -273,6 +322,9 @@
                                                 <state key="normal" title="MI">
                                                     <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="acordeSeleccionado:" destination="akz-lB-kvk" eventType="touchUpInside" id="PWV-0C-cOF"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fqY-Yr-Gh1">
                                                 <rect key="frame" x="125.5" y="0.0" width="124" height="60"/>
@@ -281,6 +333,9 @@
                                                 <state key="normal" title="MIm">
                                                     <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="acordeSeleccionado:" destination="akz-lB-kvk" eventType="touchUpInside" id="eFq-pI-MAh"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fLd-vq-qz6">
                                                 <rect key="frame" x="251.5" y="0.0" width="123.5" height="60"/>
@@ -289,6 +344,9 @@
                                                 <state key="normal" title="FA">
                                                     <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="acordeSeleccionado:" destination="akz-lB-kvk" eventType="touchUpInside" id="u4D-6Y-vEe"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -307,6 +365,9 @@
                                                 <state key="normal" title="FA#m">
                                                     <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="acordeSeleccionado:" destination="akz-lB-kvk" eventType="touchUpInside" id="A0g-DP-zMi"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1CK-u9-TYK">
                                                 <rect key="frame" x="125.5" y="0.0" width="124" height="60"/>
@@ -315,6 +376,9 @@
                                                 <state key="normal" title="SOL">
                                                     <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="acordeSeleccionado:" destination="akz-lB-kvk" eventType="touchUpInside" id="rUR-bD-NXC"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t87-2b-MCT">
                                                 <rect key="frame" x="251.5" y="0.0" width="123.5" height="60"/>
@@ -323,6 +387,9 @@
                                                 <state key="normal" title="LA">
                                                     <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="acordeSeleccionado:" destination="akz-lB-kvk" eventType="touchUpInside" id="HhL-RD-Isz"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -340,6 +407,9 @@
                                                 <state key="normal" title="LAm">
                                                     <color key="titleColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="acordeSeleccionado:" destination="akz-lB-kvk" eventType="touchUpInside" id="cc4-Kx-kKq"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="byJ-sr-hpn">
                                                 <rect key="frame" x="125.5" y="0.0" width="124" height="60"/>
@@ -348,6 +418,9 @@
                                                 <state key="normal" title="SI">
                                                     <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="acordeSeleccionado:" destination="akz-lB-kvk" eventType="touchUpInside" id="OIq-HC-VN9"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SX7-Jg-OsD">
                                                 <rect key="frame" x="251.5" y="0.0" width="123.5" height="60"/>
@@ -356,6 +429,9 @@
                                                 <state key="normal" title="SIm">
                                                     <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="acordeSeleccionado:" destination="akz-lB-kvk" eventType="touchUpInside" id="ffz-78-1KV"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -393,6 +469,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Guitarra" id="H69-fG-h26"/>
+                    <connections>
+                        <outlet property="myImageAcordeGuitarra" destination="k8f-z8-6zd" id="rxb-E6-4Nu"/>
+                        <outlet property="myNombreAcordeLBL" destination="SUo-vo-Fwb" id="xxr-Wz-rFC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BYm-KB-MmX" sceneMemberID="firstResponder"/>
             </objects>

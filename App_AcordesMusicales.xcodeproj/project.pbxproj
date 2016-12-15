@@ -57,14 +57,22 @@
 			isa = PBXGroup;
 			children = (
 				634630A11DF48562000B082F /* AppDelegate.swift */,
-				636DF3A31E03135B00A47ACD /* ICOGuitarViewController.swift */,
-				636DF3A51E03136600A47ACD /* ICOPainoViewController.swift */,
+				636DF3A71E03190500A47ACD /* VIEW_CONTROLLERS */,
 				634630A51DF48562000B082F /* Main.storyboard */,
 				634630A81DF48562000B082F /* Assets.xcassets */,
 				634630AA1DF48562000B082F /* LaunchScreen.storyboard */,
 				634630AD1DF48562000B082F /* Info.plist */,
 			);
 			path = App_AcordesMusicales;
+			sourceTree = "<group>";
+		};
+		636DF3A71E03190500A47ACD /* VIEW_CONTROLLERS */ = {
+			isa = PBXGroup;
+			children = (
+				636DF3A31E03135B00A47ACD /* ICOGuitarViewController.swift */,
+				636DF3A51E03136600A47ACD /* ICOPainoViewController.swift */,
+			);
+			name = VIEW_CONTROLLERS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
